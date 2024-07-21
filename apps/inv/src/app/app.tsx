@@ -9,6 +9,7 @@ export function App() {
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
       {/* Feel free to move and update them to fit your needs */}
+      <h1>Welcome to what is love without money!</h1>
       <br />
       <hr />
       <br />

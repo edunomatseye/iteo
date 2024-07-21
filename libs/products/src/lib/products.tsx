@@ -1,7 +1,7 @@
 export function Products() {
   return (
     <div style={{ color: 'red' }}>
-      <h1>Welcome to Products!</h1>
+      <h3>Welcome to Products!</h3>
     </div>
   );
 }

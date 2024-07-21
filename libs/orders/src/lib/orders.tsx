@@ -1,7 +1,7 @@
 export function Orders() {
   return (
     <div style={{ color: 'red' }}>
-      <h1>Welcome to Orders!</h1>
+      <h3>Welcome to Orders!</h3>
     </div>
   );
 }
