@@ -1,0 +1,9 @@
+{
+  "name": "txen-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/txen-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["txen"],
+  "// targets": "to see all targets run: nx show project txen-e2e --web",
+  "targets": {}
+}
