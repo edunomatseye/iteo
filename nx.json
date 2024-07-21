@@ -59,6 +59,21 @@
         "style": "tailwind",
         "linter": "eslint"
       }
+    },
+    "@nx/react": {
+      "application": {
+        "babel": true,
+        "style": "tailwind",
+        "linter": "eslint",
+        "bundler": "vite"
+      },
+      "component": {
+        "style": "tailwind"
+      },
+      "library": {
+        "style": "tailwind",
+        "linter": "eslint"
+      }
     }
   },
   "nxCloudAccessToken": "OThiMmQ2ZWQtODZmMS00MDM3LWExOGEtMTFmYjUzZmY2ODM3fHJlYWQtd3JpdGU="
