@@ -1,14 +1,8 @@
-import styled from 'tailwind';
-
-const StyledOrders = styled.div`
-  color: pink;
-`;
-
 export function Orders() {
   return (
-    <StyledOrders>
+    <div style={{ color: 'red' }}>
       <h1>Welcome to Orders!</h1>
-    </StyledOrders>
+    </div>
   );
 }
 
