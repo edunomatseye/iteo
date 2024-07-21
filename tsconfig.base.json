@@ -15,9 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "orders": ["libs/orders/src/index.ts"],
-      "products": ["libs/products/src/index.ts"],
-      "shared-ui": ["libs/shared/ui/src/index.ts"]
+      "@iteo/products": ["libs/products/src/index.ts"],
+      "@iteo/orders": ["libs/orders/src/index.ts"],
+      "@iteo/shared-ui": ["libs/shared/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
