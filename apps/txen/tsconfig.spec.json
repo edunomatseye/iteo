@@ -6,6 +6,11 @@
     "types": ["jest", "node"],
     "jsx": "react"
   },
+  "references": [
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ],
   "include": [
     "jest.config.ts",
     "src/**/*.test.ts",
