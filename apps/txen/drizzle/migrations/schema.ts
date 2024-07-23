@@ -16,7 +16,6 @@ import {
   primaryKey,
   unique,
 } from 'drizzle-orm/pg-core';
-import { sql } from 'drizzle-orm';
 
 const mySchema = pgSchema('next_auth');
 export const aal_level = pgEnum('aal_level', ['aal1', 'aal2', 'aal3']);

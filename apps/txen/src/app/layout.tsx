@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import './global.css';
 
 export const metadata = {
@@ -12,7 +13,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className="flex flex-row bg-red-100 rounded-lg shadow-md border border-b-red-600 m-5 p-10 max-w-max">
+          <ul className="flex">
+            <li className="p-3 m-2 rounded-md bg-slate-300 hover:bg-green-100">
+              <Link href="/">Home</Link>
+            </li>
+            <li className="p-3 m-2 rounded-md bg-slate-300 hover:bg-green-100">
+              <Link href="/about">About</Link>
+            </li>
+          </ul>
+        </div>
+        <div>{children}</div>
+      </body>
     </html>
   );
 }
