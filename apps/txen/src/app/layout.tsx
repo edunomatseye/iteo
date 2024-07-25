@@ -4,7 +4,7 @@ import './global.css';
 
 export const metadata = {
   title: 'Welcome to your future!',
-  description: 'A goto auction application from the greate beyond.',
+  description: 'A goto auction application from the greate beyond and above.',
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
