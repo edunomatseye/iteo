@@ -9,11 +9,11 @@ import { db } from '../../../drizzle/client';
 // is common in i18n libraries.
 export const createTRPCContext = async (opts: {
   headers: Headers;
-  auth: { userId: string };
+  //auth: { userId: string };
 }) => {
   return {
     db,
-    userId: opts.auth.userId,
+    //userId: opts.auth.userId,
     ...opts,
   };
 };
@@ -25,8 +25,8 @@ export const createTRPCContext = async (opts: {
  * ZodErrors so that you get typesafety on the frontend if your procedure fails due to validation
  * errors on the backend.
  */
-// const t = initTRPC.context<typeof createTRPCContext>().create({
-const t = initTRPC.create({
+const t = initTRPC.context<typeof createTRPCContext>().create({
+  //const t = initTRPC.create({
   transformer: superjson,
   errorFormatter({ shape, error }) {
     return {
